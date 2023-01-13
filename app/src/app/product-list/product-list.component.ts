@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CartService } from '../cart.service';
 import { Product } from '../product.model';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-product-list',
